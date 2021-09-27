@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll Number Check</title>
+    <script src="./index.js"></script>
+    <style>
+        div{
+            margin: 15px 5px;
+        }
+        button:hover{
+            background-color: red;
+            color: white;
+        }
+        h3{
+            border: 2px solid black;
+            width: 300px;
+            background-color: blue;
+            color: white;
+        }
+        body{
+            background-color: rgb(243, 243, 89);
+        }
+    </style>
+</head>
+<body>
+    <h3>Student object is printed in console</h3>
+    <hr>
+    <h4>Enter roll number for error checking</h4>   
+    <input id="validateThis" type="text" value="" placeholder="Roll number" />
+    <div>
+        <button type="submit" onclick="return validate()">Submit</button>
+    </div>
+</body>
+
+</html>
