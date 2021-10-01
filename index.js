@@ -18,7 +18,7 @@ class Student {
     }
 }
 
-let aamir = new Student("Rohit", 31, "D15A", "20");
+let rohit = new Student("Rohit", 31, "D15A", "20");
 console.log("Printing student object (object created through constructor): ", {rohit})
  
 function validate() {
